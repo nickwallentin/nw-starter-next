@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+}
+
+@layer components {
+  .section {
+    @apply py-10 md:py-20;
+  }
+  .section-sm {
+    @apply py-5 md:py-10;
+  }
+  .row {
+    @apply pb-10 last:pb-0;
+  }
+  .row-sm {
+    @apply pb-5 last:pb-0;
+  }
+}
