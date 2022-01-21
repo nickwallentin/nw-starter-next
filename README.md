@@ -3,4 +3,5 @@
 - ✅ Next.js
 - ✅ Typescript
 - ✅ Tailwindcss
+- ✅ Preact
 - ✅ Modules/common layout
