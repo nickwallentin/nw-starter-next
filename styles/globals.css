@@ -6,6 +6,9 @@
 }
 
 @layer components {
+  .contain {
+    @apply px-5 mx-auto md:px-10 max-w-7xl;
+  }
   .section {
     @apply py-10 md:py-20;
   }
